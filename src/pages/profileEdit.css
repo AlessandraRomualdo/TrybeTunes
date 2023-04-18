@@ -1,0 +1,58 @@
+.form {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 5px;
+  width: 45%;
+}
+
+.container-inputs {
+  display: flex;
+  font-family: monospace;
+}
+
+.inp-profile {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  font-family: monospace;
+  margin: auto;
+  padding: 7px;
+  width: 38vw;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: auto;
+  padding: 5px;
+  resize: none;
+  width: 38vw;
+}
+
+label {
+  font-weight: 700;
+  margin: 15px;
+  padding: 5px;
+}
+
+.btn-save {
+  background-image: linear-gradient(to top, #49a09ddc, #795191d5);
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  font-family: monospace;
+  margin: auto;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.btn-save:hover {
+  background-image: linear-gradient(to top, #49a09ddc, #795191d5);
+  border: 1px solid black;
+  color: white;
+}

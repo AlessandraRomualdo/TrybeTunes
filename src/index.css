@@ -1,4 +1,6 @@
 body {
+  background: #0000;
+  background-image: linear-gradient(50deg, #58125d 21%, #1f2168 71%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +9,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+
+  --font-title: 'Bebas Neue' , cursive;
+
+}
+
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho {
+  background: #0000;
+  background-image: linear-gradient(50deg, #58125d 21%, #1f216862 71%);
+  padding: 10px;
+  height: 50px;
+
+  margin: auto;
+}
+
+.cabecalho h1 {
+  font-family: var(--font-title);
+  font-size: 38px;
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+}
+
+button:disabled {
+  background-color: #ccc;
 }

@@ -1,0 +1,46 @@
+.container-music {
+  display: flex;
+}
+
+.info-album {
+  background-image: linear-gradient(to top, #49a09da1, #785191b5);
+  border-radius: 7px;
+  height: 400px;
+  margin: 70px auto 0;
+  padding: 20px;
+  width: 35%;
+
+}
+
+.container-musics {
+  background: #0000;
+  background-image: linear-gradient(50deg, #58125d 21%, #1f2168 71%);
+  margin: 0 auto;
+  padding: 10px;
+  width: 60%;
+}
+
+.img-album {
+  background-color: burlywood;
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.album-na {
+  font-family: monospace;
+  padding: 10px;
+}
+
+.name-artits {
+  padding: 10px;
+}
+
+
+.page p {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+}

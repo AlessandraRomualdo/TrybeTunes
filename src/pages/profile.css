@@ -1,0 +1,58 @@
+.profile-info {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.profile-info h1 {
+  font-family: monospace;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-img {
+  margin: auto;
+  width: 17%;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.container-infos {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 18px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.title-info {
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 40%;
+}
+
+.redirect {
+  background-image: linear-gradient(to top, #49a09ddc, #795191d5);
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  font-family: monospace;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+}
+

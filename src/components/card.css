@@ -1,0 +1,40 @@
+.card {
+  align-items: center;
+  background-image: linear-gradient(to top, #49a09d97, #7a519145);
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.444);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-around;
+  margin: 20px 15px;
+  padding: 1rem;
+  width: 250px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.444);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.img-card {
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.444);
+  width: 100%;
+}
+
+.album-name {
+  color: black;
+  font-family: monospace;
+  padding: 5px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.artist-name {
+  color: black;
+  font-family: monospace;
+  text-decoration: none;
+  width: 200px;
+}
