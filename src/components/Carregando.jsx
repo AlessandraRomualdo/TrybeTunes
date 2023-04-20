@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PropagateLoader from 'react-spinners/ClipLoader';
+import DotLoader from 'react-spinners/DotLoader';
 
 const override = {
   display: 'block',
@@ -8,18 +8,20 @@ const override = {
 };
 
 function Carregando() {
-  const [loading, setLoading] = useState(true);
-  const [color, setColor] = useState('#ffffff');
+  const [loading ] = useState(true);
+  const [color ] = useState('#785191');
 
   return (
     <div className="sweet-loading">
+      
+      <DotLoader
 
-      <PropagateLoader
         color={ color }
         loading={ loading }
         cssOverride={ override }
-        size={ 100 }
-        aria-label="PropagateLoader"
+        size={ 80 }
+        margin={ 2 }
+        aria-label="DotLoader"
         data-testid="loader"
       />
     </div>

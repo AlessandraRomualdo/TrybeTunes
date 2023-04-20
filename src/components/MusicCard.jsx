@@ -66,9 +66,9 @@ export default class MusicCard extends Component {
     return (
       <div className="container">
 
-        {loading ? <Carregando /> : (
           <div className="container-previwer">
             <p className="track-name">{trackName}</p>
+        {loading ? <Carregando /> : (
             <div className="container-track-fav">
               <audio data-testid="audio-component" src={ previewUrl } controls>
                 <track kind="captions" />
@@ -78,22 +78,22 @@ export default class MusicCard extends Component {
                 <code>audio</code>
                 .
               </audio>
-              <label htmlFor="fav" className="check-fav">
-                Favorita
-                <input
-                  className="check-fav"
-                  data-testid={ `checkbox-music-${trackId}` }
-                  type="checkbox"
-                  name="check"
-                  checked={ check }
-                  id="fav"
-                  onChange={ this.onInputChange }
-                  onClick={ () => this.addFavorite(music) }
-                />
-              </label>
+              <div class="heart-check">
+                  <input
+                    className="check-fav"
+                    data-testid={ `checkbox-music-${trackId}` }
+                    type="checkbox"
+                    name="check"
+                    checked={ check }
+                    id={trackId}
+                    onChange={ this.onInputChange }
+                    onClick={ () => this.addFavorite(music) }
+                  />
+                  <label htmlFor={trackId}>Favorita</label>
+              </div>
             </div>
-          </div>
         )}
+          </div>
       </div>
     );
   }
