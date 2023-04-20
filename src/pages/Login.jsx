@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { createUser } from '../services/userAPI';
 import Carregando from '../components/Carregando';
 import './form.css';
+import  imglogin from '../img/login.png';
 
 export default class Login extends Component {
   state = {
@@ -45,10 +46,9 @@ export default class Login extends Component {
         </div>
         { isLoading && <Carregando /> }
         <form className="form-login" action="">
-          <label htmlFor="login-name" className="label-login">
-            Entre com seu Nome ou Apelido
 
-          </label>
+          <img className="login-img" src={ imglogin } alt="Login" />
+
           <input
             className="input-login"
             placeholder="Digite seu nome para logar"

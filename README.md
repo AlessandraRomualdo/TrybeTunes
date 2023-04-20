@@ -2,7 +2,7 @@
 
 :pushpin: [Acessar Aplicação](https://trybe-tunes-self.vercel.app/)               
 
-:pushpin: - Projeto feito com React usando react-router-dom versão 5.
+:pushpin: - Projeto feito com React usando react-router-dom versão 5.               
 :pushpin: - Foram aplicados: componentização, rotas, consumo de API, states e props.
 
 <div>
