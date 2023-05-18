@@ -6,6 +6,7 @@
 :pushpin: - Foram aplicados: componentização, rotas, consumo de API, states e props.
 
 <div>
+  <img width="900" src="./imgs/tunes.gif"/>
   <img width="350" src="./imgs/busca-album.png"/>
   <img width="350" src="./imgs/lista-musicas.png"/>
   <img width="350" src="./imgs/pag-favoritas.png"/>
